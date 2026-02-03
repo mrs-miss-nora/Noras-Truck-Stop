@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/ebony_brick_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/ebony_bricks"
+    },
+    "type=top": {
+      "model": "truckstop:block/ebony_brick_slab_top"
+    }
+  }
+}

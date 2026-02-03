@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "truckstop:block/white_corrugated_metal_block",
+    "side": "truckstop:block/decorated_white_corrugated_metal_block",
+    "top": "truckstop:block/white_corrugated_metal_block"
+  }
+}

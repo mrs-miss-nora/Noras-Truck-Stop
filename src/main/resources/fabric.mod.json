@@ -10,7 +10,7 @@
 	"contact": {
 
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/truckstop/icon.png",
 	"environment": "*",
 	"entrypoints": {

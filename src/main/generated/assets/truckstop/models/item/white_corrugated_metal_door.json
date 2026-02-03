@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "truckstop:item/white_corrugated_metal_door"
+  }
+}

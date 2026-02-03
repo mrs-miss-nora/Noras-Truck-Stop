@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "truckstop:block/decorated_beige_corrugated_metal_block"
+  }
+}

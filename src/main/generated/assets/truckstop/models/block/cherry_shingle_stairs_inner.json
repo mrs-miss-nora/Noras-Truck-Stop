@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "truckstop:block/cherry_shingles",
+    "side": "truckstop:block/cherry_shingles",
+    "top": "truckstop:block/cherry_shingles"
+  }
+}

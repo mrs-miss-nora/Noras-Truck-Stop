@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "truckstop:block/beige_corrugated_metal_block",
+    "side": "truckstop:block/decorated_beige_corrugated_metal_block"
+  }
+}

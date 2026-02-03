@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "truckstop:block/large_vinyl_wood_paneling_top",
+    "side": "truckstop:block/large_vinyl_wood_paneling"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/decorated_white_corrugated_metal_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/decorated_white_corrugated_metal_block"
+    },
+    "type=top": {
+      "model": "truckstop:block/decorated_white_corrugated_metal_slab_top"
+    }
+  }
+}

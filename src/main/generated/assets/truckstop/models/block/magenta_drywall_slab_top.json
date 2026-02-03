@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "truckstop:block/magenta_drywall",
+    "side": "truckstop:block/magenta_drywall",
+    "top": "truckstop:block/magenta_drywall"
+  }
+}

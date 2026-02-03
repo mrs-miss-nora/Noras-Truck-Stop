@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "truckstop:block/ebony_shingles",
+    "side": "truckstop:block/ebony_shingles",
+    "top": "truckstop:block/ebony_shingles"
+  }
+}

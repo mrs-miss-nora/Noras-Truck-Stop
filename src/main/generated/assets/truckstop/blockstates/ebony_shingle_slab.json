@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/ebony_shingle_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/ebony_shingles"
+    },
+    "type=top": {
+      "model": "truckstop:block/ebony_shingle_slab_top"
+    }
+  }
+}

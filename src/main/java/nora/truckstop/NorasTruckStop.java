@@ -2,6 +2,7 @@ package nora.truckstop;
 
 import net.fabricmc.api.ModInitializer;
 
+import nora.truckstop.block.ModBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +20,7 @@ public class NorasTruckStop implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Entering Nora's Truck Stop");
+		LOGGER.info("Entering "+MOD_ID);
+		ModBlocks.init();
 	}
 }

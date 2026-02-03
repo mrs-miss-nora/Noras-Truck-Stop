@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "truckstop:block/cardboard_box",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "truckstop:block/cardboard_box"
+    },
+    "facing=south": {
+      "model": "truckstop:block/cardboard_box",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "truckstop:block/cardboard_box",
+      "y": 270
+    }
+  }
+}

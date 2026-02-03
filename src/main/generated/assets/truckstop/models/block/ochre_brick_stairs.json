@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "truckstop:block/ochre_bricks",
+    "side": "truckstop:block/ochre_bricks",
+    "top": "truckstop:block/ochre_bricks"
+  }
+}

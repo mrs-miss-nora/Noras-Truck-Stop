@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/tan_drywall_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/tan_drywall"
+    },
+    "type=top": {
+      "model": "truckstop:block/tan_drywall_slab_top"
+    }
+  }
+}

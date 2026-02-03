@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "truckstop:block/small_vinyl_wood_paneling_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "truckstop:block/small_vinyl_wood_paneling"
+    },
+    "axis=z": {
+      "model": "truckstop:block/small_vinyl_wood_paneling_horizontal",
+      "x": 90
+    }
+  }
+}

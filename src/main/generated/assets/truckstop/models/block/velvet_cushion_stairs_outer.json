@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "truckstop:block/velvet_cushions",
+    "side": "truckstop:block/velvet_cushions",
+    "top": "truckstop:block/velvet_cushions"
+  }
+}

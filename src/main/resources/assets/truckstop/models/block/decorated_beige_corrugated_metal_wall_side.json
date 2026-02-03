@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "truckstop:block/decorated_beige_corrugated_metal_block"
+  }
+}

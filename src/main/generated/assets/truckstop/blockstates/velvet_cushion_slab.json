@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/velvet_cushion_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/velvet_cushions"
+    },
+    "type=top": {
+      "model": "truckstop:block/velvet_cushion_slab_top"
+    }
+  }
+}

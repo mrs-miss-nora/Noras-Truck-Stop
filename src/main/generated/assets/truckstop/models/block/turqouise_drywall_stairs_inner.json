@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "truckstop:block/turquoise_drywall",
+    "side": "truckstop:block/turquoise_drywall",
+    "top": "truckstop:block/turquoise_drywall"
+  }
+}

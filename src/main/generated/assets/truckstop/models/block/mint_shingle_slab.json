@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "truckstop:block/mint_shingles",
+    "side": "truckstop:block/mint_shingles",
+    "top": "truckstop:block/mint_shingles"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "truckstop:block/slate_shingles",
+    "side": "truckstop:block/slate_shingles",
+    "top": "truckstop:block/slate_shingles"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "truckstop:block/orientable_with_symmetry",
+  "textures": {
+    "particle": "truckstop:block/cardboard_box",
+    "front": "truckstop:block/cardboard_box_front",
+    "side": "truckstop:block/cardboard_box_side",
+    "top": "truckstop:block/cardboard_box_top"
+  }
+}

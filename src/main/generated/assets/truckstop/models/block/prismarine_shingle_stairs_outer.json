@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "truckstop:block/prismarine_shingles",
+    "side": "truckstop:block/prismarine_shingles",
+    "top": "truckstop:block/prismarine_shingles"
+  }
+}

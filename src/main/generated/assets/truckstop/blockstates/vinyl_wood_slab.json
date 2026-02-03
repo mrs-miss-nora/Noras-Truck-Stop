@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/vinyl_wood_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/vinyl_wood"
+    },
+    "type=top": {
+      "model": "truckstop:block/vinyl_wood_slab_top"
+    }
+  }
+}

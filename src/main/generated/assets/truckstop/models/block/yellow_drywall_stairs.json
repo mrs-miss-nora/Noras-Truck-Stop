@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "truckstop:block/yellow_drywall",
+    "side": "truckstop:block/yellow_drywall",
+    "top": "truckstop:block/yellow_drywall"
+  }
+}

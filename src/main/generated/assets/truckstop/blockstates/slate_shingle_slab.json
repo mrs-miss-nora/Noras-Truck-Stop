@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/slate_shingle_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/slate_shingles"
+    },
+    "type=top": {
+      "model": "truckstop:block/slate_shingle_slab_top"
+    }
+  }
+}

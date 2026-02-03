@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "truckstop:block/ochre_brick_slab"
+    },
+    "type=double": {
+      "model": "truckstop:block/ochre_bricks"
+    },
+    "type=top": {
+      "model": "truckstop:block/ochre_brick_slab_top"
+    }
+  }
+}

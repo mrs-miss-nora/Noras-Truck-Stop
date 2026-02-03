@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:small_vinyl_wood_paneling"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vinyl_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:vinyl_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vinyl_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:small_vinyl_wood_paneling"
+    ]
+  }
+}
