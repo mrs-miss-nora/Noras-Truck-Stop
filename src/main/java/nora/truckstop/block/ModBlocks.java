@@ -148,7 +148,7 @@ public class ModBlocks {
     public static final Block BEIGE_CORRUGATED_METAL_WALL = registerBlock("beige_corrugated_metal_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
     public static final Block BEIGE_CORRUGATED_METAL_WINDOW = registerBlock("beige_corrugated_metal_window",
-            new Block(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).nonOpaque()));
+            new TransparentBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).nonOpaque()));
     public static final Block DECORATED_BEIGE_CORRUGATED_METAL_BLOCK = registerBlock("decorated_beige_corrugated_metal_block",
             new Block(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
     public static final Block DECORATED_BEIGE_CORRUGATED_METAL_STAIRS = registerBlock("decorated_beige_corrugated_metal_stairs",
@@ -171,7 +171,7 @@ public class ModBlocks {
     public static final Block WHITE_CORRUGATED_METAL_WALL = registerBlock("white_corrugated_metal_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
     public static final Block WHITE_CORRUGATED_METAL_WINDOW = registerBlock("white_corrugated_metal_window",
-            new Block(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).nonOpaque()));
+            new TransparentBlock(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK).nonOpaque()));
     public static final Block DECORATED_WHITE_CORRUGATED_METAL_BLOCK = registerBlock("decorated_white_corrugated_metal_block",
             new Block(AbstractBlock.Settings.copy(Blocks.COPPER_BLOCK)));
     public static final Block DECORATED_WHITE_CORRUGATED_METAL_STAIRS = registerBlock("decorated_white_corrugated_metal_stairs",
@@ -206,7 +206,7 @@ public class ModBlocks {
     public static final Block GARAGE_PANEL_WALL = registerBlock("garage_panel_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).strength(3f)));
     public static final Block GARAGE_WINDOW = registerBlock("garage_window",
-            new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).nonOpaque().strength(3f)));
+            new TransparentBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).nonOpaque().strength(3f)));
     public static final Block GARAGE_WINDOW_WALL = registerBlock("garage_window_wall",
             new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).strength(3f)));
 
