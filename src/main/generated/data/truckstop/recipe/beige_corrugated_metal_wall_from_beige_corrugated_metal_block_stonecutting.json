@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:beige_corrugated_metal_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "truckstop:beige_corrugated_metal_wall"
+  }
+}

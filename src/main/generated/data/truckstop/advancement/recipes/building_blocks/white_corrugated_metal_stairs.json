@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:white_corrugated_metal_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_corrugated_metal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:white_corrugated_metal_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_corrugated_metal_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:white_corrugated_metal_stairs"
+    ]
+  }
+}

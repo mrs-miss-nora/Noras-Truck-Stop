@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lemon_velvet_cushions": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:lemon_velvet_cushions"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:lemon_velvet_cushion_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lemon_velvet_cushions"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:lemon_velvet_cushion_stairs"
+    ]
+  }
+}

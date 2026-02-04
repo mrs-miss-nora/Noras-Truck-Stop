@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:cherry_shingles"
+  },
+  "result": {
+    "count": 2,
+    "id": "truckstop:cherry_shingle_slab"
+  }
+}

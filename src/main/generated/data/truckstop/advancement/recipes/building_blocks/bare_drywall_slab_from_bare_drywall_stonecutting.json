@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bare_drywall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:bare_drywall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:bare_drywall_slab_from_bare_drywall_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bare_drywall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:bare_drywall_slab_from_bare_drywall_stonecutting"
+    ]
+  }
+}

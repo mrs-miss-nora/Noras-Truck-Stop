@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": {
+    "B": {
       "item": "truckstop:vinyl_wood"
     }
   },
   "pattern": [
-    "###"
+    "BBB"
   ],
   "result": {
     "count": 6,

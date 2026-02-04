@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lapis_shingles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:lapis_shingles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:lapis_shingle_stairs_from_lapis_shingles_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lapis_shingles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:lapis_shingle_stairs_from_lapis_shingles_stonecutting"
+    ]
+  }
+}

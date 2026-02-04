@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:prismarine_shingles"
+  },
+  "result": {
+    "count": 1,
+    "id": "truckstop:prismarine_shingle_stairs"
+  }
+}
