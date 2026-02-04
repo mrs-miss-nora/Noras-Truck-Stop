@@ -24,7 +24,7 @@ public class ModLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(Blocks.BRICK_SLAB, "Clay Brick Slab");
         translationBuilder.add(Blocks.BRICK_WALL, "Clay Brick Wall");
 
-        // all the blocks in ts
+        // all the blocks in nts
         translationBuilder.add(ModBlocks.BUILDING_KEY, "Nora's Truck Stop");
 
         translationBuilder.add(ModBlocks.OCHRE_BRICKS, "Ochre Bricks");

@@ -199,16 +199,16 @@ public class ModBlocks {
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.SPRUCE_WOOD)));
 
     public static final Block CARDBOARD_BOX = registerBlock("cardboard_box",
-            new HorizontalPlaceableBlock(AbstractBlock.Settings.copy(Blocks.CRAFTING_TABLE).sounds(BlockSoundGroup.SCAFFOLDING)));
+            new HorizontalPlaceableBlock(AbstractBlock.Settings.copy(Blocks.CRAFTING_TABLE).sounds(BlockSoundGroup.SCAFFOLDING).strength(1f)));
 
     public static final Block GARAGE_PANEL = registerBlock("garage_panel",
-            new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK)));
+            new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).strength(3f)));
     public static final Block GARAGE_PANEL_WALL = registerBlock("garage_panel_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK)));
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).strength(3f)));
     public static final Block GARAGE_WINDOW = registerBlock("garage_window",
-            new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).nonOpaque()));
+            new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).nonOpaque().strength(3f)));
     public static final Block GARAGE_WINDOW_WALL = registerBlock("garage_window_wall",
-            new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK)));
+            new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).strength(3f)));
 
     public static final Block BARE_DRYWALL = registerBlock("bare_drywall",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
