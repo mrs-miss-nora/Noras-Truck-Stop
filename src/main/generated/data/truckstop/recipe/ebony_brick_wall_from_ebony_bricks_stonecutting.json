@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:ebony_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "truckstop:ebony_brick_wall"
+  }
+}

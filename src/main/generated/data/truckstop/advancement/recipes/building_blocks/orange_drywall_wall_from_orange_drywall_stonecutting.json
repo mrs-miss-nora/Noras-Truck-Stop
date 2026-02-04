@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_drywall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:orange_drywall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:orange_drywall_wall_from_orange_drywall_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_orange_drywall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:orange_drywall_wall_from_orange_drywall_stonecutting"
+    ]
+  }
+}

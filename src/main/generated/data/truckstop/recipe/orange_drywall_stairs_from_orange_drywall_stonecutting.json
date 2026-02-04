@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:orange_drywall"
+  },
+  "result": {
+    "count": 1,
+    "id": "truckstop:orange_drywall_stairs"
+  }
+}

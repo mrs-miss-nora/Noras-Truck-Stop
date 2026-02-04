@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:pearl_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "truckstop:pearl_brick_stairs"
+  }
+}

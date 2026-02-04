@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:paper"
+    },
+    "D": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BDB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "truckstop:bare_drywall"
+  }
+}

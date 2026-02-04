@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cherry_shingles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:cherry_shingles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:cherry_shingle_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cherry_shingles"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:cherry_shingle_slab"
+    ]
+  }
+}

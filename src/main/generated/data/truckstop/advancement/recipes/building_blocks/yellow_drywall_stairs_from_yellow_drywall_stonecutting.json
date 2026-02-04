@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:yellow_drywall_stairs_from_yellow_drywall_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_drywall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:yellow_drywall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_yellow_drywall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:yellow_drywall_stairs_from_yellow_drywall_stonecutting"
+    ]
+  }
+}

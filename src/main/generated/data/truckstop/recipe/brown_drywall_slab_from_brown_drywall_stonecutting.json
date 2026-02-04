@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:brown_drywall"
+  },
+  "result": {
+    "count": 2,
+    "id": "truckstop:brown_drywall_slab"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_indigo_drywall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "truckstop:indigo_drywall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "truckstop:indigo_drywall_stairs_from_indigo_drywall_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_indigo_drywall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "truckstop:indigo_drywall_stairs_from_indigo_drywall_stonecutting"
+    ]
+  }
+}

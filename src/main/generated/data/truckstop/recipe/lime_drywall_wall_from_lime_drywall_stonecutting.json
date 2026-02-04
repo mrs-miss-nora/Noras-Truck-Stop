@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "truckstop:lime_drywall"
+  },
+  "result": {
+    "count": 1,
+    "id": "truckstop:lime_drywall_wall"
+  }
+}

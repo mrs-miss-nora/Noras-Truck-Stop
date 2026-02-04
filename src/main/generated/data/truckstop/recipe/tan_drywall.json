@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "truckstop:bare_drywall"
+    },
+    "D": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BDB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "truckstop:tan_drywall"
+  }
+}
