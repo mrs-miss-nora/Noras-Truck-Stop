@@ -417,6 +417,8 @@ public class ModBlocks {
             TS_BLOCKS.add(DECORATED_WHITE_CORRUGATED_METAL_WALL);
 
             TS_BLOCKS.add(VINYL_WOOD);
+            TS_BLOCKS.add(VINYL_WOOD_STAIRS);
+            TS_BLOCKS.add(VINYL_WOOD_SLAB);
             TS_BLOCKS.add(SMALL_VINYL_WOOD_PANELING);
             TS_BLOCKS.add(LARGE_VINYL_WOOD_PANELING);
 
