@@ -3,10 +3,10 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "truckstop:bare_drywall"
+      "item": "truckstop:clay_shingles"
     },
     "D": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:purple_dye"
     }
   },
   "pattern": [
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 8,
-    "id": "truckstop:magenta_drywall"
+    "id": "truckstop:shulker_shingles"
   }
 }

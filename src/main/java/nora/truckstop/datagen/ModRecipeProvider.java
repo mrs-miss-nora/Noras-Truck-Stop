@@ -162,6 +162,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         recipeWithRing(recipeExporter, ModBlocks.BARE_DRYWALL.asItem(), Items.BROWN_DYE, ModBlocks.BROWN_DRYWALL.asItem());
         recipeWithRing(recipeExporter, ModBlocks.BARE_DRYWALL.asItem(), Items.WHITE_DYE, ModBlocks.WHITE_DRYWALL.asItem());
 
+        recipeWithRing(recipeExporter, Items.HONEYCOMB, Items.BRICK, ModBlocks.CLAY_SHINGLES.asItem());
+
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.ORANGE_DYE, ModBlocks.OCHRE_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.BLACK_DYE, ModBlocks.EBONY_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.WHITE_DYE, ModBlocks.PEARL_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.BLUE_DYE, ModBlocks.LAPIS_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.LIME_DYE, ModBlocks.MINT_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.CYAN_DYE, ModBlocks.PRISMARINE_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.PURPLE_DYE, ModBlocks.SHULKER_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.GRAY_DYE, ModBlocks.SLATE_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.GREEN_DYE, ModBlocks.EVERGREEN_SHINGLES.asItem());
+        recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.PINK_DYE, ModBlocks.CHERRY_SHINGLES.asItem());
+
         stairSlabWallCombo(recipeExporter, ModBlocks.RED_DRYWALL, ModBlocks.RED_DRYWALL_STAIRS, ModBlocks.RED_DRYWALL_SLAB, ModBlocks.RED_DRYWALL_WALL);
         stairSlabWallCombo(recipeExporter, ModBlocks.TURQUOISE_DRYWALL, ModBlocks.TURQUOISE_DRYWALL_STAIRS, ModBlocks.TURQUOISE_DRYWALL_SLAB, ModBlocks.TURQUOISE_DRYWALL_WALL);
         stairSlabWallCombo(recipeExporter, ModBlocks.LIME_DRYWALL, ModBlocks.LIME_DRYWALL_STAIRS, ModBlocks.LIME_DRYWALL_SLAB, ModBlocks.LIME_DRYWALL_WALL);
@@ -263,7 +276,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
     private static void recipeWithRing(RecipeExporter recipeExp,Item ringItem, Item middleItem, Item resultItem) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, resultItem)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, resultItem, 8)
                 .pattern("BBB")
                 .pattern("BDB")
                 .pattern("BBB")
