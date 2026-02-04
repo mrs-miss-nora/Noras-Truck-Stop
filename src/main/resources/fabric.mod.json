@@ -8,7 +8,8 @@
 		"miss_nora"
 	],
 	"contact": {
-
+		"source": "https://github.com/mrs-miss-nora/Noras-Truck-Stop",
+		"discord": "https://discord.com/invite/sQ42fDZxJU"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/truckstop/icon.png",
@@ -28,7 +29,7 @@
 		"truckstop.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
+		"fabricloader": ">=0.17.3",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
