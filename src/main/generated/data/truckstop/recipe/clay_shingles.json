@@ -3,10 +3,10 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "minecraft:honeycomb"
+      "item": "minecraft:brick"
     },
     "D": {
-      "item": "minecraft:brick"
+      "item": "minecraft:honeycomb"
     }
   },
   "pattern": [

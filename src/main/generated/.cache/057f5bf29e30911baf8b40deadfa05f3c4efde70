@@ -1,7 +1,7 @@
-// 1.21.1	2026-02-04T17:58:27.9436876	Nora's Truck Stop/Tags for minecraft:block
+// 1.21.1	2026-02-05T10:14:19.6742269	Nora's Truck Stop/Tags for minecraft:block
+47434863de65fef87b9a77fe4f27421a6d4dadd5 data\minecraft\tags\block\occludes_vibration_signals.json
 773f64f75df7d71fea71a765f3c79a449786aeec data\minecraft\tags\block\walls.json
 ab540858da5e8bbe89ca1a84f8b6e6f3430c9779 data\minecraft\tags\block\slabs.json
-1e0c5d8d95a7b4a80941c84c59945854d033dd20 data\minecraft\tags\block\mineable\axe.json
-a08fdf535e18e50aff3bee6a91def7ef3cf450e7 data\minecraft\tags\block\stairs.json
 859174d6841264c4ef034f58faab5a0cbc2550bc data\minecraft\tags\block\mineable\pickaxe.json
-47434863de65fef87b9a77fe4f27421a6d4dadd5 data\minecraft\tags\block\occludes_vibration_signals.json
+a08fdf535e18e50aff3bee6a91def7ef3cf450e7 data\minecraft\tags\block\stairs.json
+1e0c5d8d95a7b4a80941c84c59945854d033dd20 data\minecraft\tags\block\mineable\axe.json

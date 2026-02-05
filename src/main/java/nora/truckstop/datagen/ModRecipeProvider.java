@@ -31,35 +31,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter recipeExporter) {
-        offer2x2ConversionRecipe(recipeExporter, RecipeCategory.DECORATIONS, Items.PAPER, ModBlocks.CARDBOARD_BOX, 4);
         offer2x2ConversionRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SMALL_VINYL_WOOD_PANELING, ModBlocks.VINYL_WOOD, 4);
         offer2x2ConversionRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LARGE_VINYL_WOOD_PANELING, ModBlocks.SMALL_VINYL_WOOD_PANELING, 4);
 
-
         // Bricks
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.OCHRE_BRICKS)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.OCHRE_BRICKS, 2)
                 .pattern("BBB")
                 .pattern("BDB")
                 .pattern("BBB")
-                .input('B', Items.BRICKS)
+                .input('B', Items.BRICK)
                 .input('D', Items.ORANGE_DYE)
                 .criterion(hasItem(Items.BRICKS), conditionsFromItem(Items.BRICKS))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EBONY_BRICKS)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.EBONY_BRICKS, 2)
                 .pattern("BBB")
                 .pattern("BDB")
                 .pattern("BBB")
-                .input('B', Items.BRICKS)
+                .input('B', Items.BRICK)
                 .input('D', Items.BLACK_DYE)
                 .criterion(hasItem(Items.BRICKS), conditionsFromItem(Items.BRICKS))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEARL_BRICKS)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PEARL_BRICKS, 2)
                 .pattern("BBB")
                 .pattern("BDB")
                 .pattern("BBB")
-                .input('B', Items.BRICKS)
+                .input('B', Items.BRICK)
                 .input('D', Items.WHITE_DYE)
                 .criterion(hasItem(Items.BRICKS), conditionsFromItem(Items.BRICKS))
                 .offerTo(recipeExporter);
@@ -68,11 +67,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stairSlabWallCombo(recipeExporter, ModBlocks.EBONY_BRICKS, ModBlocks.EBONY_BRICK_STAIRS, ModBlocks.EBONY_BRICK_SLAB, ModBlocks.EBONY_BRICK_WALL);
         stairSlabWallCombo(recipeExporter, ModBlocks.PEARL_BRICKS, ModBlocks.PEARL_BRICK_STAIRS, ModBlocks.PEARL_BRICK_SLAB, ModBlocks.PEARL_BRICK_WALL);
 
-        // End Bricks
-
         // Drywall
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BARE_DRYWALL)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BARE_DRYWALL, 8)
                 .pattern("BBB")
                 .pattern("BDB")
                 .pattern("BBB")
@@ -108,9 +105,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stairSlabWallCombo(recipeExporter, ModBlocks.WHITE_DRYWALL, ModBlocks.WHITE_DRYWALL_STAIRS, ModBlocks.WHITE_DRYWALL_SLAB, ModBlocks.WHITE_DRYWALL_WALL);
         stairSlabWallCombo(recipeExporter, ModBlocks.BARE_DRYWALL, ModBlocks.BARE_DRYWALL_STAIRS, ModBlocks.BARE_DRYWALL_SLAB, ModBlocks.BARE_DRYWALL_WALL);
 
-        // End Drywall
-
         // Garage Blocks
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GARAGE_PANEL, 4)
                 .pattern("TT")
                 .input('T', Items.IRON_TRAPDOOR)
@@ -127,9 +123,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerWallRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GARAGE_WINDOW_WALL, ModBlocks.GARAGE_WINDOW);
 
-        // End Garage Blocks
-
         // Metal Blocks
+
         offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BEIGE_CORRUGATED_METAL_BLOCK, Items.IRON_BLOCK, 16);
         offerStonecuttingRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_CORRUGATED_METAL_BLOCK, Items.IRON_BLOCK, 16);
         stairSlabWallCombo(recipeExporter, ModBlocks.BEIGE_CORRUGATED_METAL_BLOCK, ModBlocks.BEIGE_CORRUGATED_METAL_STAIRS, ModBlocks.BEIGE_CORRUGATED_METAL_SLAB, ModBlocks.BEIGE_CORRUGATED_METAL_WALL);
@@ -173,10 +168,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.WHITE_CORRUGATED_METAL_BLOCK), conditionsFromItem(ModBlocks.WHITE_CORRUGATED_METAL_BLOCK))
                 .offerTo(recipeExporter);
 
-        // End Metal Blocks
-
         // Shingles
-        recipeWithRing(recipeExporter, Items.HONEYCOMB, Items.BRICK, ModBlocks.CLAY_SHINGLES.asItem());
+
+        recipeWithRing(recipeExporter, Items.BRICK, Items.HONEYCOMB, ModBlocks.CLAY_SHINGLES.asItem());
 
         recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.ORANGE_DYE, ModBlocks.OCHRE_SHINGLES.asItem());
         recipeWithRing(recipeExporter, ModBlocks.CLAY_SHINGLES.asItem(), Items.BLACK_DYE, ModBlocks.EBONY_SHINGLES.asItem());
@@ -201,9 +195,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         stairSlabCombo(recipeExporter, ModBlocks.EVERGREEN_SHINGLES, ModBlocks.EVERGREEN_SHINGLE_STAIRS, ModBlocks.EVERGREEN_SHINGLE_SLAB);
         stairSlabCombo(recipeExporter, ModBlocks.CHERRY_SHINGLES, ModBlocks.CHERRY_SHINGLE_STAIRS, ModBlocks.CHERRY_SHINGLE_SLAB);
 
-        // End Shingles
+        // Vinyl + Cushions + Box
 
-        // Vinyl + Cushions
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.VINYL_WOOD)
                 .pattern("BBB")
                 .pattern("BDB")
@@ -219,11 +212,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         nonStoneStairSlabCombo(recipeExporter, ModBlocks.VINYL_WOOD, ModBlocks.VINYL_WOOD_STAIRS, ModBlocks.VINYL_WOOD_SLAB);
         nonStoneStairSlabCombo(recipeExporter, ModBlocks.VELVET_CUSHIONS, ModBlocks.VELVET_CUSHION_STAIRS, ModBlocks.VELVET_CUSHION_SLAB);
         nonStoneStairSlabCombo(recipeExporter, ModBlocks.LEMON_VELVET_CUSHIONS, ModBlocks.LEMON_VELVET_CUSHION_STAIRS, ModBlocks.LEMON_VELVET_CUSHION_SLAB);
-        // End Vinyl + Cushions
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ARCADE_CARPET)
                 .input(Ingredient.fromTag(ItemTags.WOOL), 2)
                 .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BARE_DRYWALL, 8)
+                .pattern(" B ")
+                .pattern("BDB")
+                .pattern(" B ")
+                .input('B', Items.PAPER)
+                .input('D', Items.BROWN_DYE)
+                .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
                 .offerTo(recipeExporter);
     }
 
