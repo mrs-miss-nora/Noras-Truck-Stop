@@ -70,9 +70,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         // Drywall
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BARE_DRYWALL, 8)
-                .pattern("BBB")
+                .pattern(" B ")
                 .pattern("BDB")
-                .pattern("BBB")
+                .pattern(" B ")
                 .input('B', Items.PAPER)
                 .input('D', Items.CALCITE)
                 .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
@@ -218,14 +218,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BARE_DRYWALL, 8)
-                .pattern(" B ")
-                .pattern("BDB")
-                .pattern(" B ")
-                .input('B', Items.PAPER)
-                .input('D', Items.BROWN_DYE)
-                .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
-                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.ASBESTOS)
+                .input(Items.IRON_INGOT)
+                .input(Items.FLINT)
+                .input(Items.SAND)
+                .criterion(hasItem(Items.FLINT), conditionsFromItem(Items.FLINT))
+                .offerTo(recipeExporter)
+                ;
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIBERGLASS_INSULATION, 4)
+                .input(ModBlocks.ASBESTOS, 2)
+                .input(Items.GLASS, 2)
+                .criterion(hasItem(Items.GLASS), conditionsFromItem(Items.GLASS))
+                .offerTo(recipeExporter)
+        ;
     }
 
     private static void stairSlabCombo(RecipeExporter recipeExp, Block main, Block stair, Block slab){

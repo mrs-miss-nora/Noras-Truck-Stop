@@ -175,5 +175,8 @@ public class ModLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.MAGENTA_DRYWALL_STAIRS, "Magenta Drywall Stairs");
         translationBuilder.add(ModBlocks.MAGENTA_DRYWALL_SLAB, "Magenta Drywall Slab");
         translationBuilder.add(ModBlocks.MAGENTA_DRYWALL_WALL, "Magenta Drywall Wall");
+
+        translationBuilder.add(ModBlocks.ASBESTOS, "Asbestos");
+        translationBuilder.add(ModBlocks.FIBERGLASS_INSULATION, "Fiberglass Insulation");
     }
 }

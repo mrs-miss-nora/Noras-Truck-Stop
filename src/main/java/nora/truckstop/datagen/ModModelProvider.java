@@ -147,6 +147,9 @@ public class ModModelProvider extends FabricModelProvider {
         magentaDrywallPool.stairs(ModBlocks.MAGENTA_DRYWALL_STAIRS);
         magentaDrywallPool.slab(ModBlocks.MAGENTA_DRYWALL_SLAB);
         magentaDrywallPool.wall(ModBlocks.MAGENTA_DRYWALL_WALL);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASBESTOS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIBERGLASS_INSULATION);
     }
 
     @Override

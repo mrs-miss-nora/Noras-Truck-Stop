@@ -211,7 +211,7 @@ public class ModBlocks {
             new WallBlock(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK).strength(3f)));
 
     public static final Block BARE_DRYWALL = registerBlock("bare_drywall",
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
+            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE).strength(0.7f)));
     public static final Block BARE_DRYWALL_STAIRS = registerBlock("bare_drywall_stairs",
             new StairsBlock(BARE_DRYWALL.getDefaultState(), AbstractBlock.Settings.copy(BARE_DRYWALL)));
     public static final Block BARE_DRYWALL_SLAB = registerBlock("bare_drywall_slab",
@@ -314,6 +314,11 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.copy(BARE_DRYWALL)));
     public static final Block MAGENTA_DRYWALL_WALL = registerBlock("magenta_drywall_wall",
             new WallBlock(AbstractBlock.Settings.copy(BARE_DRYWALL)));
+
+    public static final Block ASBESTOS = registerBlock("asbestos",
+            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
+    public static final Block FIBERGLASS_INSULATION = registerBlock("fiberglass_insulation",
+            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -481,6 +486,9 @@ public class ModBlocks {
             TS_BLOCKS.add(MAGENTA_DRYWALL_STAIRS);
             TS_BLOCKS.add(MAGENTA_DRYWALL_SLAB);
             TS_BLOCKS.add(MAGENTA_DRYWALL_WALL);
+
+            TS_BLOCKS.add(ASBESTOS);
+            TS_BLOCKS.add(FIBERGLASS_INSULATION);
         });
     }
 }
