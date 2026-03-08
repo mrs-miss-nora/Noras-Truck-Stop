@@ -122,6 +122,9 @@
     "truckstop:magenta_drywall",
     "truckstop:magenta_drywall_stairs",
     "truckstop:magenta_drywall_slab",
-    "truckstop:magenta_drywall_wall"
+    "truckstop:magenta_drywall_wall",
+    "truckstop:disco_floor_1",
+    "truckstop:disco_floor_2",
+    "truckstop:disco_floor_3"
   ]
 }

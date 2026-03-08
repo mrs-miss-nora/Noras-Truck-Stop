@@ -13,6 +13,8 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.BlockView;
 import nora.truckstop.NorasTruckStop;
 import nora.truckstop.block.custom.HorizontalPlaceableBlock;
 
@@ -320,6 +322,13 @@ public class ModBlocks {
     public static final Block FIBERGLASS_INSULATION = registerBlock("fiberglass_insulation",
             new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL)));
 
+    public static final Block DISCO_FLOOR_1 = registerBlock("disco_floor_1",
+            new Block(AbstractBlock.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> 7).emissiveLighting(ModBlocks::always)));
+    public static final Block DISCO_FLOOR_2 = registerBlock("disco_floor_2",
+            new Block(AbstractBlock.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> 7).emissiveLighting(ModBlocks::always)));
+    public static final Block DISCO_FLOOR_3 = registerBlock("disco_floor_3",
+            new Block(AbstractBlock.Settings.copy(Blocks.REDSTONE_LAMP).luminance(state -> 7).emissiveLighting(ModBlocks::always)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(NorasTruckStop.MOD_ID, name), block);
@@ -335,6 +344,10 @@ public class ModBlocks {
             .icon(() -> new ItemStack(ModBlocks.LEMON_VELVET_CUSHION_STAIRS))
             .displayName(Text.translatable("itemgroup.truckstop"))
             .build();
+
+    private static boolean always(BlockState state, BlockView blockView, BlockPos blockPos) {
+        return true;
+    }
 
     public static void init() {
         NorasTruckStop.LOGGER.info("Painting Vinyls for "+NorasTruckStop.MOD_ID);
@@ -433,6 +446,10 @@ public class ModBlocks {
             TS_BLOCKS.add(GARAGE_PANEL_WALL);
             TS_BLOCKS.add(GARAGE_WINDOW);
             TS_BLOCKS.add(GARAGE_WINDOW_WALL);
+
+            TS_BLOCKS.add(DISCO_FLOOR_1);
+            TS_BLOCKS.add(DISCO_FLOOR_2);
+            TS_BLOCKS.add(DISCO_FLOOR_3);
 
             TS_BLOCKS.add(BARE_DRYWALL);
             TS_BLOCKS.add(BARE_DRYWALL_STAIRS);

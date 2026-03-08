@@ -222,15 +222,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.IRON_INGOT)
                 .input(Items.FLINT)
                 .input(Items.SAND)
+                .input(Items.STRING)
                 .criterion(hasItem(Items.FLINT), conditionsFromItem(Items.FLINT))
                 .offerTo(recipeExporter)
                 ;
         ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIBERGLASS_INSULATION, 4)
                 .input(ModBlocks.ASBESTOS, 2)
                 .input(Items.GLASS, 2)
+                .input(Items.STRING)
                 .criterion(hasItem(Items.GLASS), conditionsFromItem(Items.GLASS))
                 .offerTo(recipeExporter)
         ;
+
+        //offer2x2ConversionRecipe(recipeExporter, RecipeCategory.BUILDING_BLOCKS,ModBlocks.DISCO_FLOOR_1, Items.REDSTONE_LAMP, 4);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DISCO_FLOOR_2)
+                .input(ModBlocks.DISCO_FLOOR_1)
+                .criterion(hasItem(Items.REDSTONE_LAMP), conditionsFromItem(Items.REDSTONE_LAMP))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DISCO_FLOOR_3)
+                .input(ModBlocks.DISCO_FLOOR_2)
+                .criterion(hasItem(Items.REDSTONE_LAMP), conditionsFromItem(Items.REDSTONE_LAMP))
+                .offerTo(recipeExporter);
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.DISCO_FLOOR_1)
+                .input(ModBlocks.DISCO_FLOOR_3)
+                .criterion(hasItem(Items.REDSTONE_LAMP), conditionsFromItem(Items.REDSTONE_LAMP))
+                .offerTo(recipeExporter);
     }
 
     private static void stairSlabCombo(RecipeExporter recipeExp, Block main, Block stair, Block slab){

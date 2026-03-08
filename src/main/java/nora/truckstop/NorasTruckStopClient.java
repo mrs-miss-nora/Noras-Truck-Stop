@@ -16,7 +16,10 @@ public class NorasTruckStopClient implements ClientModInitializer {
                 ModBlocks.WHITE_CORRUGATED_METAL_TRAPDOOR,
                 ModBlocks.WHITE_CORRUGATED_METAL_WINDOW,
                 ModBlocks.GARAGE_WINDOW,
-                ModBlocks.GARAGE_WINDOW_WALL
+                ModBlocks.GARAGE_WINDOW_WALL,
+                ModBlocks.DISCO_FLOOR_1,
+                ModBlocks.DISCO_FLOOR_2,
+                ModBlocks.DISCO_FLOOR_3
         );
     }
 }

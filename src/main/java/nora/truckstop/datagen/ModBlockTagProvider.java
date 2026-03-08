@@ -144,6 +144,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_DRYWALL_STAIRS)
                 .add(ModBlocks.MAGENTA_DRYWALL_SLAB)
                 .add(ModBlocks.MAGENTA_DRYWALL_WALL)
+
+                .add(ModBlocks.DISCO_FLOOR_1)
+                .add(ModBlocks.DISCO_FLOOR_2)
+                .add(ModBlocks.DISCO_FLOOR_3)
         ;
 
         getOrCreateTagBuilder(BlockTags.OCCLUDES_VIBRATION_SIGNALS)

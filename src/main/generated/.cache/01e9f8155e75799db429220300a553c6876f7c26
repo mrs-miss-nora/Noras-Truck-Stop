@@ -1,6 +1,7 @@
-// 1.21.1	2026-02-08T12:22:18.8828324	Nora's Truck Stop/Block Loot Tables
+// 1.21.1	2026-03-08T13:20:08.4928271	Nora's Truck Stop/Block Loot Tables
 45ac417798aacb3bf06e4d71794eac4b54b89577 data\truckstop\loot_table\blocks\velvet_cushion_slab.json
 9d80bc9c8a3ae763518e2a768a66f72d4ae21263 data\truckstop\loot_table\blocks\orange_drywall_slab.json
+2f5414b98a845caa6d7d2e8bf78d4b83e9d7581b data\truckstop\loot_table\blocks\disco_floor_3.json
 9f834af700d6b89c1a6aa444d2cacd561fb7c2e7 data\truckstop\loot_table\blocks\garage_window.json
 b18a4acccfae6544b258e8a1e800af0d0e1fea57 data\truckstop\loot_table\blocks\brown_drywall_slab.json
 b81c81e686dcfd482b6d2a7ae4cc8ad20b3322dc data\truckstop\loot_table\blocks\decorated_white_corrugated_metal_stairs.json
@@ -10,6 +11,7 @@ be2f68a79777a4ec1d6a55d1837f94f5b12f1397 data\truckstop\loot_table\blocks\vinyl_
 b6740a3d2888109298640e1d5e3d34abc2b71131 data\truckstop\loot_table\blocks\small_vinyl_wood_paneling.json
 00704d5bbec4639d719bf3c18fa7a08a59430bf6 data\truckstop\loot_table\blocks\lime_drywall_slab.json
 780d305530ccb37c5bdc6818a288bcc76c8673d4 data\truckstop\loot_table\blocks\white_drywall_wall.json
+c8e53d01a144ee0ba0223f54eeec99dd2e1c4c2d data\truckstop\loot_table\blocks\disco_floor_2.json
 45a1b6ec781dddbfd967f99fcb7388e27cd97763 data\truckstop\loot_table\blocks\mint_shingle_slab.json
 076e742419d328802823c4479e80f3ac49617860 data\truckstop\loot_table\blocks\orange_drywall.json
 325757c94f49c7cb8179f67ce07a85a7d7bb44ed data\truckstop\loot_table\blocks\slate_shingle_stairs.json
@@ -17,6 +19,7 @@ c47d6408d3e712a1dfc1498ff7fadb90f86aac2c data\truckstop\loot_table\blocks\decora
 d2c69435a74007a4fb17023d470ec609cbd77be1 data\truckstop\loot_table\blocks\brown_drywall_wall.json
 934117aaa9d740bdfcd6ba2fcba79ae6986ee03d data\truckstop\loot_table\blocks\pearl_brick_stairs.json
 9732de4b20a20c8b26f6269ea285d0037c46c376 data\truckstop\loot_table\blocks\ochre_shingle_stairs.json
+68b28d365c0dcc59f7230b709ef148f91059c7ab data\truckstop\loot_table\blocks\disco_floor_1.json
 5df3a69c528cbb031a4ba96faa94f4945fe2541b data\truckstop\loot_table\blocks\pearl_shingle_slab.json
 28fd671eaf31fca53f0ae7acced26bb22c6a94af data\truckstop\loot_table\blocks\ebony_brick_wall.json
 c26b93e326a803359ed7f0a728fc188f388b34f8 data\truckstop\loot_table\blocks\ebony_shingle_slab.json
@@ -112,6 +115,7 @@ dbaa6aba93560ac80e49622368c0080c50aec362 data\truckstop\loot_table\blocks\pearl_
 eadec287aeb32be330314f1c3464c166eff5f103 data\truckstop\loot_table\blocks\yellow_drywall_wall.json
 0efb535bcf8fef48546783e258628af936883143 data\truckstop\loot_table\blocks\magenta_drywall.json
 4f0056f8ff2dc085797320ed9334376d188c0d8d data\truckstop\loot_table\blocks\lapis_shingle_stairs.json
+6d04de14395b15ad161f1aea9644d964106b6763 data\truckstop\loot_table\blocks\asbestos.json
 db0dd3906cad0c87387a76c058f85c5d83c22f55 data\truckstop\loot_table\blocks\purple_drywall_wall.json
 3ef48bfc8e1289ad2f5d1e7afce8a2f0615c1187 data\truckstop\loot_table\blocks\decorated_white_corrugated_metal_slab.json
 3157e15510eef05fd1f2735ab2147a12d2129e88 data\truckstop\loot_table\blocks\lemon_velvet_cushions.json
@@ -122,6 +126,7 @@ db0dd3906cad0c87387a76c058f85c5d83c22f55 data\truckstop\loot_table\blocks\purple
 a8c249c8f8143042bf7babfde6ab6865ce679cc8 data\truckstop\loot_table\blocks\purple_drywall_slab.json
 02200e56a3373965a83bb62ad8587ef347aa50fb data\truckstop\loot_table\blocks\indigo_drywall_wall.json
 7637d4071b67d12509f416b5fa7ee0d747f73456 data\truckstop\loot_table\blocks\bare_drywall_slab.json
+42cdfe81849e568d153c7e740eb5b3bbd3adc08e data\truckstop\loot_table\blocks\fiberglass_insulation.json
 805f26cdcbc4d4dee41f275907bfe49dfc9142aa data\truckstop\loot_table\blocks\ochre_brick_slab.json
 2c8edac02e0a6b1dbd049257b6ae23547043d04b data\truckstop\loot_table\blocks\arcade_carpet.json
 7e8df49a49f31dc838acd3634442ba5aec29749e data\truckstop\loot_table\blocks\lemon_velvet_cushion_stairs.json

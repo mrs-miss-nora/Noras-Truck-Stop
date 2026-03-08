@@ -109,6 +109,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GARAGE_WINDOW);
         addDrop(ModBlocks.GARAGE_WINDOW_WALL);
 
+        addDrop(ModBlocks.ASBESTOS);
+        addDrop(ModBlocks.FIBERGLASS_INSULATION);
+        addDrop(ModBlocks.DISCO_FLOOR_1);
+        addDrop(ModBlocks.DISCO_FLOOR_2);
+        addDrop(ModBlocks.DISCO_FLOOR_3);
+
         addDrop(ModBlocks.BARE_DRYWALL);
         addDrop(ModBlocks.BARE_DRYWALL_STAIRS);
         addDrop(ModBlocks.BARE_DRYWALL_SLAB, slabDrops(ModBlocks.BARE_DRYWALL_SLAB));

@@ -178,5 +178,9 @@ public class ModLanguageProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModBlocks.ASBESTOS, "Asbestos");
         translationBuilder.add(ModBlocks.FIBERGLASS_INSULATION, "Fiberglass Insulation");
+
+        translationBuilder.add(ModBlocks.DISCO_FLOOR_1, "Disco Floor 1");
+        translationBuilder.add(ModBlocks.DISCO_FLOOR_2, "Disco Floor 2");
+        translationBuilder.add(ModBlocks.DISCO_FLOOR_3, "Disco Floor 3");
     }
 }
